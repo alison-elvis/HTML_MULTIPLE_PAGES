@@ -1,0 +1,28 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100dvh;
+  margin: 0;
+  font-family: "Segoe UI", Sans-Serif;
+}
+
+header, footer {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+}
+
+h1 {
+  text-transform: uppercase;
+}
+
+footer {
+  margin-top: auto;
+}
